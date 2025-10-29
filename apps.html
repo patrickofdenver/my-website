@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Apps - Neural Hound</title>
+  <meta name="description" content="Explore mobile applications developed by Neural Hound, including the Respiratory Assistant app.">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    .page-header {
+      background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%);
+      color: white;
+      padding: 60px 0;
+      margin-bottom: 40px;
+    }
+    .page-header h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+    .app-card {
+      padding: 30px;
+      height: 100%;
+    }
+    .app-icon {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .app-icon i {
+      font-size: 80px;
+      color: #00897b;
+    }
+    .app-card h4 {
+      color: #0d47a1;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .app-card p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #444;
+    }
+    .feature-list {
+      margin-top: 20px;
+    }
+    .feature-list li {
+      padding: 8px 0;
+      font-size: 1rem;
+    }
+    .feature-list i {
+      color: #00897b;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+    .store-badge {
+      text-align: center;
+      margin-top: 20px;
+    }
+    nav .brand-logo {
+      display: flex;
+      align-items: center;
+    }
+    nav .brand-logo i {
+      margin-right: 8px;
+    }
+    .coming-soon {
+      background-color: #f5f5f5;
+      padding: 40px;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="blue darken-3">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo">
+        <i class="material-icons">pets</i>
+        Neural Hound
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="active"><a href="apps.html">Our Apps</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+      <a href="#" data-target="mobile-menu" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Mobile Side Navigation -->
+  <ul class="sidenav" id="mobile-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="apps.html">Our Apps</a></li>
+    <li><a href="support.html">Support</a></li>
+    <li><a href="privacy.html">Privacy</a></li>
+  </ul>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container center-align">
+      <h1>Our Applications</h1>
+      <p style="font-size: 1.2rem;">Mobile tools designed to improve your daily life</p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Respiratory Assistant App -->
+    <div class="row">
+      <div class="col s12">
+        <div class="card app-card">
+          <div class="app-icon">
+            <i class="material-icons">air</i>
+          </div>
+          <h4>Respiratory Assistant</h4>
+          
+          <div class="row">
+            <div class="col s12 m6">
+              <h5 style="color: #1565c0; font-size: 1.3rem;">About This App</h5>
+              <p>
+                Respiratory Assistant is designed to help users practice and maintain healthy breathing 
+                techniques. Whether you're managing respiratory conditions, practicing meditation, or 
+                simply want to improve your breathing habits, this app provides guided exercises and 
+                helpful tracking features.
+              </p>
+              <p>
+                The app is straightforward and easy to use, with no complicated setup or learning curve. 
+                Just open it and start your breathing exercises.
+              </p>
+            </div>
+            
+            <div class="col s12 m6">
+              <h5 style="color: #1565c0; font-size: 1.3rem;">Key Features</h5>
+              <ul class="feature-list">
+                <li>
+                  <i class="material-icons tiny">check_circle</i>
+                  Guided breathing exercises with customizable timing
+                </li>
+                <li>
+                  <i class="material-icons tiny">check_circle</i>
+                  Simple, intuitive interface
+                </li>
+                <li>
+                  <i class="material-icons tiny">check_circle</i>
+                  Visual and audio cues to guide your breathing
+                </li>
+                <li>
+                  <i class="material-icons tiny">check_circle</i>
+                  No data collection - completely private
+                </li>
+                <li>
+                  <i class="material-icons tiny">check_circle</i>
+                  Works offline - no internet connection required
+                </li>
+                <li>
+                  <i class="material-icons tiny">check_circle</i>
+                  Free to use with no ads or subscriptions
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Store Links -->
+          <div class="store-badge">
+            <h5 style="color: #1565c0; margin-bottom: 20px;">Download Now</h5>
+            <div>
+              <a href="https://play.google.com" target="_blank" class="btn waves-effect waves-light blue darken-3" style="margin: 10px;">
+                <i class="material-icons left">shop</i>
+                Google Play Store
+              </a>
+              <span class="grey-text" style="display: inline-block; margin: 10px;">
+                <i class="material-icons left" style="vertical-align: middle;">schedule</i>
+                iOS version coming soon
+              </span>
+            </div>
+            <p style="margin-top: 20px; color: #666;">
+              <em>Note: Replace the Google Play Store link above with your actual app link once you have it</em>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Future Apps Section -->
+    <div class="coming-soon">
+      <i class="material-icons" style="font-size: 64px; color: #1565c0;">lightbulb_outline</i>
+      <h4 style="color: #0d47a1;">More Apps Coming Soon</h4>
+      <p style="font-size: 1.1rem; color: #555; max-width: 600px; margin: 20px auto;">
+        We're constantly working on new applications to help make your life easier. Stay tuned for 
+        upcoming releases in health, productivity, and lifestyle categories.
+      </p>
+      <a href="support.html" class="btn waves-effect waves-light blue darken-3" style="margin-top: 20px;">
+        <i class="material-icons left">notifications</i>
+        Contact Us for Updates
+      </a>
+    </div>
+
+    <!-- Support CTA -->
+    <div class="center-align" style="margin: 60px 0;">
+      <h5 style="color: #0d47a1; margin-bottom: 20px;">Need Help With Our Apps?</h5>
+      <a href="support.html" class="btn btn-large waves-effect waves-light blue darken-3">
+        <i class="material-icons left">help</i>
+        Visit Support Center
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer blue darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h5 class="white-text">Neural Hound, Ltd.</h5>
+          <p class="grey-text text-lighten-4">
+            Developing mobile applications that enhance daily life through innovative technology.
+          </p>
+        </div>
+        <div class="col s12 m4 offset-m2">
+          <h5 class="white-text">Quick Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="about.html">About Us</a></li>
+            <li><a class="grey-text text-lighten-3" href="apps.html">Our Apps</a></li>
+            <li><a class="grey-text text-lighten-3" href="support.html">Support</a></li>
+            <li><a class="grey-text text-lighten-3" href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center-align">
+        © 2025 Neural Hound, Ltd. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(elems);
+    });
+  </script>
+</body>
+</html>
