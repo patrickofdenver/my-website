@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Neural Hound: Apps to make your life easier.</title>
+  <title>Neural Hound - Mobile Apps for Better Living</title>
+  <meta name="description" content="Neural Hound develops mobile applications focused on health, wellness, and productivity to make your life easier.">
   <!-- Materialize CSS CDN -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
   <!-- Google Material Icons -->
@@ -10,75 +11,206 @@
   <!-- Responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <style>
-    .tech-logo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 48px;
-      margin-bottom: 24px;
+    .hero {
+      background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%);
+      color: white;
+      padding: 80px 0;
+      margin-bottom: 40px;
     }
-    .tech-logo .material-icons {
-      font-size: 96px;
-      color: #1565c0;
-    }
-    .company-title {
+    .hero h1 {
+      font-size: 3rem;
       font-weight: 600;
-      text-align: center;
-      margin-bottom: 8px;
-      color: #1565c0;
+      margin-bottom: 20px;
     }
-    .subtitle {
-      text-align: center;
-      font-size: 1.2rem;
-      color: #555;
+    .hero p {
+      font-size: 1.3rem;
+      margin-bottom: 30px;
     }
-    .happiness {
-      margin-top: 48px;
-      text-align: center;
-      font-size: 1.5rem;
-      color: #00897b;
+    .section-title {
+      font-size: 2rem;
       font-weight: 500;
-    }
-    .privacy-policy {
-      margin-top: 48px;
-      padding: 16px;
-      background-color: #f5f5f5;
-      border-radius: 4px;
+      margin-bottom: 30px;
+      color: #1565c0;
       text-align: center;
     }
-    footer {
-      margin-top: 64px;
+    .feature-card {
+      padding: 30px;
+      text-align: center;
+      height: 100%;
+    }
+    .feature-card i {
+      font-size: 64px;
+      color: #1565c0;
+      margin-bottom: 20px;
+    }
+    .feature-card h5 {
+      color: #0d47a1;
+      margin-bottom: 15px;
+    }
+    .cta-section {
+      background-color: #f5f5f5;
+      padding: 60px 0;
+      margin-top: 60px;
+    }
+    nav .brand-logo {
+      display: flex;
+      align-items: center;
+    }
+    nav .brand-logo i {
+      margin-right: 8px;
+    }
+    footer.page-footer {
+      margin-top: 0;
     }
   </style>
 </head>
 <body>
+  <!-- Navigation -->
   <nav class="blue darken-3">
     <div class="nav-wrapper container">
-      <a href="#" class="brand-logo"><i class="material-icons">pets</i> Neural Hound</a>
+      <a href="index.html" class="brand-logo">
+        <i class="material-icons">pets</i>
+        Neural Hound
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="apps.html">Our Apps</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+      <!-- Mobile Menu Button -->
+      <a href="#" data-target="mobile-menu" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
     </div>
   </nav>
-  <div class="container">
-    <div class="tech-logo">
-      <i class="material-icons">memory</i>
-    </div>
-    <h2 class="company-title">Neural Hound: Apps to make your life easier.</h2>
-    <div class="subtitle">Technology, Simplicity, Happiness.</div>
-    <div class="happiness">
-      Apps designed to boost your happiness and make every day brighter.
-    </div>
-    
-    <!-- Added Privacy Policy Section -->
-    <div class="privacy-policy">
-      <h5>Privacy Policy</h5>
-      <p>The Respiratory Assistant app does not collect or store any personal information, nor does Neural Hound, Ltd. share any data from users.</p>
+
+  <!-- Mobile Side Navigation -->
+  <ul class="sidenav" id="mobile-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="apps.html">Our Apps</a></li>
+    <li><a href="support.html">Support</a></li>
+    <li><a href="privacy.html">Privacy</a></li>
+  </ul>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="container center-align">
+      <h1>Apps to Make Your Life Easier</h1>
+      <p>Innovative mobile solutions for health, wellness, and everyday productivity</p>
+      <a href="apps.html" class="btn btn-large waves-effect waves-light white blue-text text-darken-3">
+        Explore Our Apps
+      </a>
     </div>
   </div>
-  <footer class="page-footer blue darken-4">
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- What We Do Section -->
+    <h2 class="section-title">What We Do</h2>
+    <div class="row">
+      <div class="col s12 m6 l4">
+        <div class="card feature-card">
+          <i class="material-icons">favorite</i>
+          <h5>Health & Wellness</h5>
+          <p>We create applications that help users manage their health and improve their wellbeing through intuitive, easy-to-use tools.</p>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card feature-card">
+          <i class="material-icons">smartphone</i>
+          <h5>Mobile First</h5>
+          <p>Our apps are designed specifically for mobile devices, ensuring a seamless experience on Android and iOS platforms.</p>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card feature-card">
+          <i class="material-icons">security</i>
+          <h5>Privacy Focused</h5>
+          <p>We prioritize your privacy. Our apps don't collect or share personal information, keeping your data safe and secure.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured App Section -->
+    <div style="margin-top: 60px;">
+      <h2 class="section-title">Featured App</h2>
+      <div class="row">
+        <div class="col s12 m8 offset-m2">
+          <div class="card">
+            <div class="card-content">
+              <div class="center-align" style="margin-bottom: 20px;">
+                <i class="material-icons" style="font-size: 80px; color: #00897b;">air</i>
+              </div>
+              <span class="card-title center-align" style="display: block; font-size: 1.8rem; color: #0d47a1;">
+                Respiratory Assistant
+              </span>
+              <p style="font-size: 1.1rem; text-align: center; margin-top: 20px;">
+                A helpful tool designed to assist users with respiratory exercises and breathing techniques. 
+                Available now on the Google Play Store.
+              </p>
+            </div>
+            <div class="card-action center-align">
+              <a href="apps.html" class="btn waves-effect waves-light blue darken-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to Action Section -->
+  <div class="cta-section">
     <div class="container center-align">
-      © 2025 Neural Hound, Ltd.
+      <h3 style="color: #0d47a1; margin-bottom: 20px;">Need Help or Have Questions?</h3>
+      <p style="font-size: 1.2rem; color: #555; margin-bottom: 30px;">
+        Our support team is here to assist you with any questions or issues.
+      </p>
+      <a href="support.html" class="btn btn-large waves-effect waves-light blue darken-3">
+        <i class="material-icons left">help</i>
+        Contact Support
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer blue darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h5 class="white-text">Neural Hound, Ltd.</h5>
+          <p class="grey-text text-lighten-4">
+            Developing mobile applications that enhance daily life through innovative technology.
+          </p>
+        </div>
+        <div class="col s12 m4 offset-m2">
+          <h5 class="white-text">Quick Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="about.html">About Us</a></li>
+            <li><a class="grey-text text-lighten-3" href="apps.html">Our Apps</a></li>
+            <li><a class="grey-text text-lighten-3" href="support.html">Support</a></li>
+            <li><a class="grey-text text-lighten-3" href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center-align">
+        © 2025 Neural Hound, Ltd. All rights reserved.
+      </div>
     </div>
   </footer>
+
   <!-- Materialize JS CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    // Initialize mobile menu
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(elems);
+    });
+  </script>
 </body>
 </html>
